@@ -92,6 +92,22 @@
       .success-message{font-size:15px;line-height:1.55}.success-message a{margin-top:8px}
     }
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  
+    /* Polish: outcome screens, tap targets, consistent spacing (2026-11-13) */
+    .outcome-content h1{margin-bottom:16px}
+    .outcome-content>.lead{margin-bottom:28px}
+    .outcome-content .contact-link{margin-top:0}
+    .outcome-card{padding:clamp(32px,6vw,48px) clamp(24px,6vw,56px)}
+    .gate-guidance strong{display:block;margin-bottom:8px}
+    .gate-guidance{margin-bottom:24px}
+    .text-back{min-height:44px;padding:0 12px 0 0;display:inline-flex;align-items:center;margin-block:-12px}
+    .summary-edit{min-height:44px;padding:0 0 0 8px;display:inline-flex;align-items:center}
+    .success-message a{display:inline-block;padding:10px 0}
+    @media (max-width:620px){
+      .outcome-card{padding:32px 24px}
+      .outcome-content>.lead{margin-bottom:24px}
+      .summary-edit{min-height:44px;padding:0}
+    }
   </style>
 </head>
 <body>
